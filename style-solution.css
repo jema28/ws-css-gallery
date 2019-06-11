@@ -1,0 +1,49 @@
+@import url("https://fonts.googleapis.com/css?family=Assistant:400,700&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Assistant", sans-serif;
+  color: #0f0f0f;
+  margin: 0 20px;
+}
+
+h1 {
+  font-weight: normal;
+  margin-bottom: 30px;
+}
+
+.content-heading {
+  margin: 0;
+  text-transform: uppercase;
+  font-weight: normal;
+  letter-spacing: 1px;
+  color: #999999;
+  font-size: 13px;
+}
+
+.content p {
+  margin-top: 5px;
+}
+
+article img {
+  max-width: 100%;
+}
+
+.blog {
+  max-width: 1200px;
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-gap: 10px;
+}
+
+.blog-post {
+  border: 1px solid #c8c8c8;
+}
+
+.blog-post .content {
+  padding: 20px;
+}
